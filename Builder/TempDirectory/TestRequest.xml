@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTestRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TestRequest>
+    <TestLibrary>CodeToTest1.dll</TestLibrary>
+    <TestLibrary>CodeToTest2.dll</TestLibrary>
+  </TestRequest>
+  <TestRequest>
+    <TestLibrary>CodeToTest1.dll</TestLibrary>
+    <TestLibrary>CodeToTest2.dll</TestLibrary>
+  </TestRequest>
+</ArrayOfTestRequest>

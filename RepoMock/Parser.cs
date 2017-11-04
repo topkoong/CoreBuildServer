@@ -1,0 +1,7 @@
+namespace RepoMock
+{
+    class Parser
+    {
+        
+    }
+}

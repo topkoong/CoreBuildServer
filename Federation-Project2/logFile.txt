@@ -1,0 +1,32 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Sat Oct  7 23:40:08 2017
+     Path: "C:\Users\topkoong\Documents\Visual Studio 2017\Projects\Federation-Project2\Federation-Project2"
+     Args: *.cs, Federation-Project2.csproj, Federation-Project2.sln, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       9
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+       CommunicatorBase.cs   namespace                Federation_Project2      39      34       6
+       CommunicatorBase.cs       class                   CommunicatorBase      40      11       3
+       CommunicatorBase.cs    function                        postMessage      43       3       1
+       CommunicatorBase.cs    function                     processMessage      46       2       1
+       CommunicatorBase.cs       class               TestCommunicatorBase      52      20       2
+       CommunicatorBase.cs    function                               Main      54      16       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     8 dirs
+   processed     6 files

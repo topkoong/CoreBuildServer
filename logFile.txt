@@ -1,0 +1,228 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Sun Oct  8 15:44:58 2017
+     Path: "C:\Users\topkoong\Documents\Visual Studio 2017\Projects\Federation-Project2"
+     Args: *.cs, Federation-Project2.sln, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     253
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Builder.cs   namespace                Federation_Project2      77     318      52
+                Builder.cs       class                       BuildRequest      81       5       2
+                Builder.cs    function                         XmlElement      82       2       1
+                Builder.cs       class                               Test      86       7       4
+                Builder.cs    function                         XmlElement      87       2       1
+                Builder.cs    function                         XmlElement      88       2       1
+                Builder.cs    function                         XmlElement      89       2       1
+                Builder.cs       class                        TestRequest      94       4       1
+                Builder.cs       class                            Builder      98     259      42
+                Builder.cs    function                            Builder     126       9       1
+                Builder.cs    function                              Build     137      37       4
+                Builder.cs    function                     getFilesHelper     176      14       3
+                Builder.cs    function                           getFiles     196       4       1
+                Builder.cs    function                           sendFile     205      14       3
+                Builder.cs    function                                  >     221      15       2
+                Builder.cs    function                       copyFileType     238      13       2
+                Builder.cs    function               copyDeserializedFile     254      20       4
+                Builder.cs    function                   objSerialization     277      17       2
+                Builder.cs    function                       buildAllFile     296      15       3
+                Builder.cs    function                     processMessage     313      42       4
+                Builder.cs       class                        TestBuilder     359      35       2
+                Builder.cs    function                               Main     361      31       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Client.cs   namespace                Federation_Project2      59      80      14
+                 Client.cs       class                             Client      61      52      11
+                 Client.cs    function                             Client      70       5       1
+                 Client.cs    function                            testLog      77       4       1
+                 Client.cs    function                     processMessage      83      28       5
+                 Client.cs       class                         TestClient     115      23       2
+                 Client.cs    function                               Main     117      19       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            CodeToTest1.cs   namespace                       LoadingTests       8      15       4
+            CodeToTest1.cs       class                        CodeToTest1      10      13       3
+            CodeToTest1.cs    function                        annunciator      12       3       1
+            CodeToTest1.cs    function                               Main      16       5       1
+            CodeToTest1.cs   namespace                       LoadingTests       8      15       4
+            CodeToTest1.cs       class                        CodeToTest1      10      13       3
+            CodeToTest1.cs    function                        annunciator      12       3       1
+            CodeToTest1.cs    function                               Main      16       5       1
+            CodeToTest1.cs   namespace                       LoadingTests       8      15       4
+            CodeToTest1.cs       class                        CodeToTest1      10      13       3
+            CodeToTest1.cs    function                        annunciator      12       3       1
+            CodeToTest1.cs    function                               Main      16       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            CodeToTest2.cs   namespace                       LoadingTests       8      15       4
+            CodeToTest2.cs       class                        CodeToTest2      10      13       3
+            CodeToTest2.cs    function                        annunciator      12       3       1
+            CodeToTest2.cs    function                               Main      16       5       1
+            CodeToTest2.cs   namespace                       LoadingTests       8      15       4
+            CodeToTest2.cs       class                        CodeToTest2      10      13       3
+            CodeToTest2.cs    function                        annunciator      12       3       1
+            CodeToTest2.cs    function                               Main      16       5       1
+            CodeToTest2.cs   namespace                       LoadingTests       8      15       4
+            CodeToTest2.cs       class                        CodeToTest2      10      13       3
+            CodeToTest2.cs    function                        annunciator      12       3       1
+            CodeToTest2.cs    function                               Main      16       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+       CommunicatorBase.cs   namespace                Federation_Project2      39      34       6
+       CommunicatorBase.cs       class                   CommunicatorBase      40      11       3
+       CommunicatorBase.cs    function                        postMessage      43       3       1
+       CommunicatorBase.cs    function                     processMessage      46       2       1
+       CommunicatorBase.cs       class               TestCommunicatorBase      52      20       2
+       CommunicatorBase.cs    function                               Main      54      16       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            Environment.cs   namespace                Federation_Project2      49      45      14
+            Environment.cs   interface                      ICommunicator      51       3       1
+            Environment.cs      struct                        Environment      56       7       5
+            Environment.cs       class                            Message      64      30       7
+            Environment.cs    function                            makeMsg      73       8       1
+            Environment.cs    function                           ToString      84       8       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              Executive.cs   namespace                Federation_Project2      44      31       6
+              Executive.cs       class                          Executive      46      17       3
+              Executive.cs    function                          Executive      48       7       1
+              Executive.cs    function                               doOp      57       4       1
+              Executive.cs       class                            Program      64      11       2
+              Executive.cs    function                               Main      66       7       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  ITest.cs   namespace                       LoadingTests       8       6       2
+                  ITest.cs   interface                              ITest      10       3       1
+                  ITest.cs   namespace                       LoadingTests       8       6       2
+                  ITest.cs   interface                              ITest      10       3       1
+                  ITest.cs   namespace                       LoadingTests       8       6       2
+                  ITest.cs   interface                              ITest      10       3       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Parser.cs   namespace                           RepoMock       2       5       2
+                 Parser.cs       class                             Parser       4       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               RepoMock.cs   namespace                Federation_Project2      73     239      43
+               RepoMock.cs       class                       BuildRequest      80       5       2
+               RepoMock.cs    function                         XmlElement      81       2       1
+               RepoMock.cs       class                               Test      85       7       4
+               RepoMock.cs    function                         XmlElement      86       2       1
+               RepoMock.cs    function                         XmlElement      87       2       1
+               RepoMock.cs    function                         XmlElement      88       2       1
+               RepoMock.cs       class                           RepoMock      92     181      34
+               RepoMock.cs    function                           RepoMock     122       6       1
+               RepoMock.cs    function                    createDirectory     130       4       1
+               RepoMock.cs    function                     getFilesHelper     136      13       3
+               RepoMock.cs    function                           getFiles     155       4       1
+               RepoMock.cs    function                           sendFile     164      14       3
+               RepoMock.cs    function                                  >     180      15       2
+               RepoMock.cs    function                       copyFileType     198      13       2
+               RepoMock.cs    function               copyDeserializedFile     214      19       4
+               RepoMock.cs    function                     processMessage     235      36       4
+               RepoMock.cs       class                       TestRepoMock     275      36       2
+               RepoMock.cs    function                               Main     277      32       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          Serialization.cs   namespace                Federation_Project2      47      50       9
+          Serialization.cs       class                       ToAndFromXml      49      29       6
+          Serialization.cs    function                              ToXml      52       8       2
+          Serialization.cs    function                              using      56       3       1
+          Serialization.cs    function                                  >      62      14       3
+          Serialization.cs       class               TestXmlSerialization      79      17       2
+          Serialization.cs    function                               Main      81      13       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Test.cs   namespace                        testproject       8      27       6
+                   Test.cs       class                         Calculator      10      14       3
+              public data: public int result ; 
+                   Test.cs    function                                Sum      14       3       1
+                   Test.cs    function                        Subtraction      19       3       1
+                   Test.cs       class                               Test      24      11       2
+                   Test.cs    function                               Main      26       7       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            TestDriver1.cs   namespace                           TestDemo       8      50       6
+            TestDriver1.cs       class                        TestDriver1      11      48       5
+            TestDriver1.cs    function                        TestDriver1      20       3       1
+            TestDriver1.cs    function                             create      33       3       1
+            TestDriver1.cs    function                               test      39       4       1
+            TestDriver1.cs    function                               Main      46      11       1
+            TestDriver1.cs   namespace                           TestDemo       8      50       6
+            TestDriver1.cs       class                        TestDriver1      11      48       5
+            TestDriver1.cs    function                        TestDriver1      20       3       1
+            TestDriver1.cs    function                             create      33       3       1
+            TestDriver1.cs    function                               test      39       4       1
+            TestDriver1.cs    function                               Main      46      11       1
+            TestDriver1.cs   namespace                           TestDemo       8      50       6
+            TestDriver1.cs       class                        TestDriver1      11      48       5
+            TestDriver1.cs    function                        TestDriver1      20       3       1
+            TestDriver1.cs    function                             create      33       3       1
+            TestDriver1.cs    function                               test      39       4       1
+            TestDriver1.cs    function                               Main      46      11       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            TestDriver2.cs   namespace                           TestDemo       9      50       6
+            TestDriver2.cs       class                        TestDriver2      12      48       5
+            TestDriver2.cs    function                        TestDriver2      21       3       1
+            TestDriver2.cs    function                             create      34       3       1
+            TestDriver2.cs    function                               test      40       4       1
+            TestDriver2.cs    function                               Main      47      11       1
+            TestDriver2.cs   namespace                           TestDemo       9      50       6
+            TestDriver2.cs       class                        TestDriver2      12      48       5
+            TestDriver2.cs    function                        TestDriver2      21       3       1
+            TestDriver2.cs    function                             create      34       3       1
+            TestDriver2.cs    function                               test      40       4       1
+            TestDriver2.cs    function                               Main      47      11       1
+            TestDriver2.cs   namespace                           TestDemo       9      50       6
+            TestDriver2.cs       class                        TestDriver2      12      48       5
+            TestDriver2.cs    function                        TestDriver2      21       3       1
+            TestDriver2.cs    function                             create      34       3       1
+            TestDriver2.cs    function                               test      40       4       1
+            TestDriver2.cs    function                               Main      47      11       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            TestHarness.cs   namespace                Federation_Project2      80     189      34
+            TestHarness.cs       class                        TestHarness      82     157      31
+            TestHarness.cs    function                        TestHarness     123       5       1
+            TestHarness.cs       class                        TestRequest     131       4       1
+            TestHarness.cs    function                                  >     136      12       3
+            TestHarness.cs    function                       TestAllFiles     150       9       2
+            TestHarness.cs    function                        LoadAndTest     161      50       5
+            TestHarness.cs    function                     processMessage     213      24       3
+            TestHarness.cs       class                   Test_TestHarness     241      27       2
+            TestHarness.cs    function                               Main     243      23       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+              public data: Test.cs : 11 - class Calculator
+                public int result ; 
+
+
+    searched    87 dirs
+   processed    58 files
