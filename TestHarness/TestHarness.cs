@@ -172,6 +172,7 @@ namespace Federation_Project2
             {
                 Console.Write("\n\n  Loading the assembly ... ");
                 Assembly asm = Assembly.LoadFrom(Path);
+               
                 Console.Write(" Success \n  Checking Types");
                 Type[] types = asm.GetTypes();
                 foreach (Type type in types)
